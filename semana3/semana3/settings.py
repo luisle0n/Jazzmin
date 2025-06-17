@@ -133,8 +133,12 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Bienvenido al Panel de Gestión Académica",
     "copyright": "© UTPL",
     "search_model": "practica.Curso",
- 
-   
+    "topmenu_links": [
+        {"name": "Inicio", "url": "/", "permissions": ["auth.view_user"]},
+    ],
+    "usermenu_links": [
+        {"name": "Soporte", "url": "https://utpl.edu.ec", "new_window": True}
+    ],
     "show_sidebar": True,
     "navigation_expanded": True,
     "order_with_respect_to": [
@@ -147,9 +151,7 @@ JAZZMIN_SETTINGS = {
         "practica.entrega",
     ],
     "icons": {
-        "auth": "fas fa-users-cog",
-        "auth.user": "fas fa-user",
-        "auth.Group": "fas fa-users",
+
         "practica.departamento": "fas fa-building",
         "practica.instructor": "fas fa-chalkboard-teacher",
         "practica.curso": "fas fa-book",
@@ -158,14 +160,5 @@ JAZZMIN_SETTINGS = {
         "practica.tarea": "fas fa-tasks",
         "practica.entrega": "fas fa-upload",
     },
-    "custom_links": {
-        "practica": [
-            {
-                "name": "Ir al sitio",
-                "url": "/",
-                "icon": "fas fa-home",
-                "permissions": ["practica.view_curso"],
-            }
-        ]
-    },
+
 }
