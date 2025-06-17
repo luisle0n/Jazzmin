@@ -9,4 +9,4 @@ Proyecto hecho con django y luego puestas las Configurationes de jazzmin
 
 ## Proyecto depues de usar las configuraciones de jazzmin
 
-![alt text](image-1.png)
+![alt text](image-2.png)
